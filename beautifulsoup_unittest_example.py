@@ -1,7 +1,7 @@
 # Program to print
 #   1) Last 3 link's text on webpage
 #   2) Test Max and Min prices on the page using unittest
-#   3) Using 
+#   3) Using BeautfulSoup and Unittest
 
 import urllib3
 http = urllib3.PoolManager()
@@ -35,6 +35,7 @@ if __name__ == '__main__':
     unittest.main()      
 
 '''
+Output
 [u'66.61', u'66.40', u'66.01', u'66.48', u'66.03', u'66.50', u'66.03', u'66.09', u'66.45', u'66.50']
 66.61
 66.40
